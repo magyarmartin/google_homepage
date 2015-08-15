@@ -1,0 +1,32 @@
+img {
+	max-width: 330px;
+}
+
+.image {
+	margin: auto;
+	width: 25em;
+}
+
+.search {
+	margin: auto;
+	width: 32em;
+}
+
+.buttons {
+	margin: auto;
+	width: 16em;
+	padding: 10px;
+}
+
+input[type=text] {
+	margin: auto;
+	width: 35em;
+	height: 1.5em;
+}
+
+input[type=button] {
+	margin: 5px;
+	padding: 8px;
+	background-color: #F2F2F2;
+	border: 1.5px solid #D9D9D9;
+}
