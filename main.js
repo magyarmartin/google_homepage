@@ -5,3 +5,6 @@ text.onfocus = function(){
 text.onblur = function(){
 	document.getElementById("searchdiv").style.border = "1px solid #D9D9D9";
 }
+if(window.screen.availWidth < 372){
+	text.style.width = "50%";
+}

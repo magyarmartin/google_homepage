@@ -1,7 +1,12 @@
-img {
+.image img {
+	clear: both;
 	display: block;
 	max-width: 330px;
 	margin: auto;
+}
+
+body {
+	margin-top: 0px;
 }
 
 .search {
@@ -10,9 +15,11 @@ img {
 }
 
 .buttons {
+	clear: both;
 	margin: auto;
 	width: 16em;
 	padding: 10px;
+	
 }
 
 input[type=text] {
@@ -37,8 +44,11 @@ input[type=button] {
 
 #mic, #keyboard{
 	padding-top: 2px;
-	float: right;
 	display: relative;
+}
+
+#inside {
+	float: right;
 }
 
 #search {
@@ -50,4 +60,53 @@ input[type=button] {
 #search:focus {
 	border: none;
 	outline: none;
+}
+
+#nav li {
+	font-family: arial;
+	font-size: 0.8em;
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	margin-top: 0px;
+	display: table-cell;
+	vertical-align: middlle;
+}
+
+td {
+	font-family: arial;
+	font-size: 0.8em;
+	height: 50px;
+	width: 45px;
+	vertical-align: middle;
+}
+
+nav {
+	float: right;
+	margin-bottom: 80px;
+}
+
+#name {
+	color: grey;
+}
+
+.nav:hover {
+	text-decoration: underline;
+}
+
+.icon {
+	opacity: 0.5;
+}
+
+.icon:hover {
+	opacity: 1;
+}
+
+#navic {
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+#bell {
+	margin-top: 4px;
 }
