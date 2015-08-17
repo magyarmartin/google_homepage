@@ -1,10 +1,7 @@
 img {
+	display: block;
 	max-width: 330px;
-}
-
-.image {
 	margin: auto;
-	width: 25em;
 }
 
 .search {
@@ -20,7 +17,7 @@ img {
 
 input[type=text] {
 	margin: auto;
-	width: 35em;
+	border: none;
 	height: 1.5em;
 }
 
@@ -29,4 +26,28 @@ input[type=button] {
 	padding: 8px;
 	background-color: #F2F2F2;
 	border: 1.5px solid #D9D9D9;
+}
+
+#searchdiv {
+	max-width: 33em;
+	margin: auto;
+	border: 1px solid #D9D9D9;
+	height: 1.8em;
+}
+
+#mic, #keyboard{
+	padding-top: 2px;
+	float: right;
+	display: relative;
+}
+
+#search {
+	padding-top: 3px;
+	padding-left: 5px;
+	width: 85%;
+}
+
+#search:focus {
+	border: none;
+	outline: none;
 }
